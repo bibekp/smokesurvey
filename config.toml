@@ -1,0 +1,44 @@
+# Site settings
+
+baseurl = "https://bibekp.github.io/smokesurvey/"
+languageCode = "en-US"
+title = "Smoke Survey FAQ Page"
+theme = "hugo-faq-theme"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Menu
+SectionPagesMenu = "main"
+
+	[[menu.main]]
+		name = "Download"
+		weight = 10
+		url = "#download"
+	[[menu.main]]
+		name = "Installation"
+		weight = 20
+		url = "#install"
+	[[menu.main]]
+		name = "User Interface"
+		weight = 30
+		url = "#interface"
+	[[menu.main]]
+		name = "Survey"
+		weight = 40
+		url = "#survey"
+	[[menu.main]]
+		name = "Privacy"
+		weight = 50
+		url = "#privacy"
+
+
+[params]
+	
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point 
+	# to your site's css in the assets/ directory. 
+
+	custom_css = ["css/blue.css"]
